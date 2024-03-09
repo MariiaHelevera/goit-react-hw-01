@@ -1,6 +1,6 @@
 export default function Profile ({ name, tag, location, image, stats }) {
 return (
-    <div className="user-container">
+    <div>
     <div>
         <img
         src={image}
