@@ -7,8 +7,8 @@ return (
         <img className={css.avatar}
             src={image}
             alt="User avatar"
-            width="150"
-            height="150"
+            width="75"
+            height="75"
         />
         <p className={css.profileName}>{name}</p>
         <p className={css.profileInfo}>@{tag}</p>
