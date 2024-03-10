@@ -1,0 +1,83 @@
+
+.profileContainer {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 48px;
+}
+
+.profileMainInfo {
+    width: 100%;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding-top: 16px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-bottom: 8px;
+    background-color: rgb(46, 44, 44);
+}
+
+.profileName {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.profileInfo {
+    font-size: 26px;
+    color: grey;
+    line-height: 0.5;
+}
+
+.profileStatsList {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid grey;
+}
+
+.statsListItem {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid grey;
+    background-color: #d4d4d4;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.statsListItem:last-child {
+    border-right: none;
+}
+
+.statsTitle {
+    display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+    font-size: 24px;
+    color: #333;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.statsValue {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
